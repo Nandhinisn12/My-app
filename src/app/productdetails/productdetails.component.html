@@ -1,0 +1,17 @@
+<div *ngIf ="product">
+  <div class="key">
+  <h2>{{product.title}}<h2>
+  </div>
+  <div class="order mt-3 mb-3">
+    <img [src]="product.images[0]">
+    <div>
+    <div class="box">
+      <label>PRICE</label>
+      <span>${{product.price|currency:'INR'}}</span>  
+      <labe>BRAND</label>
+      <span>${{product.brand}}</span>
+      <label>CATEGORY</label>
+      <span>${{product.category}}</span>
+      </a> BUY</a>
+    </div>
+  </div>

@@ -1,0 +1,12 @@
+.key {
+  font-size: 18px;
+  font-weight: 900;
+}
+.box {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.order {
+  object-fit: cover;
+}

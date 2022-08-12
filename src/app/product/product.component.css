@@ -1,0 +1,31 @@
+.example-img {
+  object-fit: cover;
+  width: 80%;
+  height: 100px;
+  background-color: #d9d9d9;
+  margin-top: 10px;
+  justify-content: space-between;
+  flex: 1 1 auto;
+  padding: 10px 10px;
+}
+.list {
+  background-color: whitesmoke;
+}
+.sale {
+  font-size: arial;
+  text-align: center;
+}
+.example-img:hover {
+  object-fit: cover;
+  width: 150px;
+  transform: scale(1.2);
+  height: 150px;
+}
+.items {
+  display: flex;
+  gap: 20px;
+  padding-left: 20%;
+}
+.sub {
+  font-weight: 700;
+}
